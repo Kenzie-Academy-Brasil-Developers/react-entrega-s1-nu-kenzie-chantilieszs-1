@@ -1,0 +1,77 @@
+
+.formulario-extrato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px rgba(128, 128, 128, 0.135);
+    border-radius: 4px;
+}
+.formulario-extrato > p {
+    align-self: flex-start;
+    margin: 2rem 1rem;
+}
+.input-descricao {
+    width: 85%;
+    height: 40px;
+    margin-bottom: .4rem;
+    border: none;
+    padding: 0;
+}
+.input-descricao::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+}
+.formulario-extrato blockquote {
+    align-self: flex-start;
+    font-size: 12px;
+    color: var(--grey-2);
+    margin-left: 1rem;
+    margin-bottom: .8rem;
+}
+.valor-tipo {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: .8rem 0;
+}
+.container-select {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.select-valor {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.select-valor input::placeholder {
+    padding-left: .3rem;
+}
+.select-valor input {
+    width: 75%;
+    height: 35px;
+    border: none;
+    padding: 0;
+}
+.container-tipo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.container-tipo select {
+    width: 80%;
+    height: 35px;
+}
+.btn-valor {
+    width: 85%;
+    height: 40px;
+    margin: 1.3rem 0;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--grey-4);
+    font-weight: 700;
+    font-size: 14px;
+}
