@@ -1,0 +1,64 @@
+.containerModal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+}
+.fundoModal {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grey-1);
+    position: absolute;
+}
+.containerContent {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;   
+    z-index: 1;
+    padding: 1.5rem;
+}
+.contentText {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    background-color: transparent;
+}
+.contentText h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 1.7rem;
+    color: #FFF;
+}
+.contentText h2 span {
+    color: var(--primary);
+}
+.contentText p {
+    font-size: 38px;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+.contentText blockquote {
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+.contentText button {
+    width: 70%;
+    height: 46px;
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contentImg {
+    display: flex;
+    width: 60%;
+}
+.contentImg img {
+    width: 100%;
+}

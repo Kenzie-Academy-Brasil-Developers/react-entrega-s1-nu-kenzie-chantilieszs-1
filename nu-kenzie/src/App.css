@@ -50,3 +50,7 @@
   flex-direction: column;
   margin-top: 1rem;
 }
+.lancamento {
+  font-size: 22px;
+  font-weight: 700;
+}

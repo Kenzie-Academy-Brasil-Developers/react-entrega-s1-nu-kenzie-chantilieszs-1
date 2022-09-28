@@ -1,10 +1,10 @@
 import "../Header/style.css";
 
-const Header = () => {
+const Header = ({openModal}) => {
     return (
         <header>
             <h1><span>Nu</span> Kenzie</h1>
-            <button>Inicio</button>
+            <button onClick={openModal}>Inicio</button>
         </header>
     )
 }

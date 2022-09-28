@@ -1,6 +1,6 @@
 import "../CardEntrada/style.css"
 import { FaTrash } from 'react-icons/fa'
-const Card = ({descricao, tipo, valor}) => {
+const Card = ({descricao, tipo, valor, remove, transaction}) => {
 
     return (
         <li>
@@ -10,8 +10,8 @@ const Card = ({descricao, tipo, valor}) => {
             </div>
             <div>
                 <p>{valor}</p>
-                <button onClick={(e) =>  {
-                  e.target.parentNode.parentNode.remove()
+                <button onClick={() =>  {
+                  remove(transaction)
                 }} type="button"><FaTrash /></button>
             </div>
         </li>
